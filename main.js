@@ -7,7 +7,7 @@ var listaNumeri = [];
 
 // creo la lista dei numero da 1 a 100 e la inserisco nell'array vuoto che ho creato
 for (var i = 1; i<=100; i++){
-    listaNumeri[(i-1)]=Number(i);
+   listaNumeri.push(i);
 }
 
 
